@@ -1,5 +1,6 @@
- 
-        <a href = "index.html"> </a>
-        <li> <%=@task%> </li>
+ <h1>Todo number <%= params[:id] %></h1>
+ <a href = "/todo/index">go back to index</a>
+ <p> <span> <%= @todo.pomodoro %> pomodoros</span><%=@todo.description%>
+ </p>
         
     
